@@ -1,7 +1,7 @@
 public abstract class Freelancer {
-    private int Id;
-    private String Nombre;
-    private double HorasTrabajadas;
+    public int Id;
+    public String Nombre;
+    public double HorasTrabajadas;
 
     public int getId() {
         return Id;
@@ -25,7 +25,7 @@ public abstract class Freelancer {
     }
 
 
-    public abstract void CalcularPago();
+    public abstract double CalcularPago();
     public void MostrarInformaccion(){
         
     }
